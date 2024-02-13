@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="script.js">
+</head>
+
+<body>
+  <section
+    class="container mt-5 mx-auto px-4 lg:px-6 bg-[linear-gradient(45deg,rgba(0,0,0,0.2),rgba(0,0,0,0.1)),url(./dddd.jpg)] bg-no-repeat bg-cover">
+
+    <h3
+      class="text-4xl lg:text-6xl font-bold bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400   text-transparent bg-clip-text font-extrabold text-center py-5">
+      Digital Tazbih</h3>
+
+    <div class=" grid grid-cols-1 lg:grid-cols-4 justify-between content-center gap-6 pb-4">
+      <!-- Subhan-Allah-container========================= -->
+
+      <div class="rounded-lg drop-shadow-xl bg-white space-y-5 py-4">
+        <h3 class=" text-2xl text-center font-bold">Subhan Allah</h3>
+        <p class=" text-3xl text-center font-bold " id="Subhan-Allah-display">0</p>
+        <div class=" flex justify-center content-center gap-3">
+          <button class="bg-lime-800 rounded-xl py-2 px-2 text-white font-bold"
+            id="SubhanAllah-incBtn">Increment</button>
+          <button class="bg-purple-950 rounded-xl py-2 px-2 text-white font-bold"
+            id="SubhanAllah-decBtn">Decrement</button>
+        </div>
+      </div>
+      <!-- Alhamdulillah-container========================= -->
+
+      <div class="rounded-lg drop-shadow-xl bg-white space-y-5 py-4">
+        <h3 class=" text-2xl text-center font-bold">Alhamdulillah</h3>
+        <p class=" text-3xl text-center font-bold " id="Alhamdulillah-display">0</p>
+        <div class=" flex justify-center content-center gap-3">
+          <button class="bg-lime-800 rounded-xl py-2 px-2 text-white font-bold"
+            id="Alhamdulillah-incBtn">Increment</button>
+          <button class="bg-purple-950 rounded-xl py-2 px-2 text-white font-bold"
+            id="Alhamdulillah-decBtn">Decrement</button>
+        </div>
+      </div>
+      <!-- Allahuakbar-container========================= -->
+
+      <div class="rounded-lg drop-shadow-xl bg-white space-y-5 py-4">
+        <h3 class=" text-2xl text-center font-bold"> Allahu akbar</h3>
+        <p class=" text-3xl text-center font-bold " id="Allahu-Akbar-display">0</p>
+        <div class=" flex justify-center content-center gap-3">
+          <button class="bg-lime-800 rounded-xl py-2 px-2 text-white font-bold"
+            id="Allahuakbar-incBtn">Increment</button>
+          <button class="bg-purple-950 rounded-xl py-2 px-2 text-white font-bold"
+            id="AllahuAkbar-decBtn">Decrement</button>
+        </div>
+      </div>
+      <!-- lailaha-container========================= -->
+
+      <div class="rounded-lg drop-shadow-xl bg-white space-y-5 py-4">
+        <h3 class=" text-2xl text-center font-bold"> La Ilaha Illallah</h3>
+        <p class=" text-3xl text-center font-bold " id="La-ilaha-display">0</p>
+        <div class=" flex justify-center content-center gap-3">
+          <button class="bg-lime-800 rounded-xl py-2 px-2 text-white font-bold" id="laIlaha-incBtn">Increment</button>
+          <button class="bg-purple-950 rounded-xl py-2 px-2 text-white font-bold" id="laIlaha-decBtn">Decrement</button>
+        </div>
+      </div>
+
+    </div>
+    <div id="reset-Btn" class="flex justify-center content-center my-5 pb-5">
+      <button class="bg-orange-500 rounded-xl py-2 px-2 text-white font-bold px-5">Reset ALL</button>
+
+    </div>
+
+  </section>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
